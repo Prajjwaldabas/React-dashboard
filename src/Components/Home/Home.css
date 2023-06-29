@@ -2,13 +2,23 @@
 
 
 
-*{
-  margin: 0;
-  padding: 0;
+.Home{
+    background-color:#000000;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+    width: 588px;
+
+flex-shrink: 0;
 }
 
-.Homepage{
-  display: flex;
-  flex-direction: row;
-}
+.Home h1{
+    color: #FFF;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-weight: 700;
 
+}
